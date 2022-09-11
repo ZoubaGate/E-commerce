@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!--Font awesome!-->
+    <script src="https://kit.fontawesome.com/f4e855eb8f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+
+<body>
+
+    <div class="container pt-3">
+
+        <div class="input-group">
+            <a class="navbar-brand" href="#"> <img class="me-3 me-md-5 logo" 
+                    src="images/logo.jpg"></img></a>
+            <!--LOGO!-->
+
+            <input type="text" id="input-form" class="form-control" placeholder="Search"
+                aria-label="Text input with dropdown button">
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Tous les Produits</button>
+            <button class="btn btn-primary d-none d-lg-block"><i
+                    class="fa-solid fa-magnifying-glass rounded d-none d-lg-block"></i></button>
+
+            <div class="ms-md-5 mt-2 mt-md-0">
+                <a type="button" class="btn btn-outline-primary fw-500 rounded ">
+                    <i class="fa-solid fa-user me-lg-2"></i>
+                    <p class="d-none d-lg-inline">S'inscrire</p>
+                </a>
+                <a type="button" class="btn btn-outline-primary fw-500 rounded">
+                    <i class="fa-solid fa-heart me-lg-2"></i>
+                    <p class="d-none d-lg-inline">contact</p>
+                </a>
+                <a type="button" class="btn btn-outline-primary fw-500 rounded ">
+                    <i class="fa-solid fa-cart-shopping me-lg-2"></i>
+                    <p class="d-none d-lg-inline">carte</p>
+                </a>
+            </div>
+
+            <ul class="dropdown-menu  dropdown-menu-start">
+                <li><a class="dropdown-item" href="#">Meilleur</a></li>
+                <li><a class="dropdown-item" href="#">Speciale</a></li>
+                <li><a class="dropdown-item" href="#">Nouveau</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+    <!--Container div!-->
+    <hr>
+
+
+    <!--  Navbar  -->
+    <div class="container mt-3">
+        <nav class="navbar navbar-expand-lg navbar-light">
+
+            <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Présentations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="produits/produits.html">produits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Categories</a>
+                    </li>
+                    
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Others
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+            </div>
+    </div>
+
+    <!-- Content --->
+    <div class="bgPrimary py-5">
+        <div class="container py-5 text-light">
+            <h1 class="display-1 text-dark">LongRich Koko</h1>
+            <p class="lead"></p>
+            <a href="#" role="button" class="btn btn-warning py-2 px-3 fs-5 text-light"
+                style="background-color:#ff8100;">Bakal Na</a>
+            <a href="#" role="button" class="btn btn-light text-dark p-2 fs-5">Learn more</a>
+        </div>
+    </div>
+
+
+    <!--   Product section   -->
+
+    <div class="py-5">
+        <div class="container">
+            <h3 class="fw-bold mb-sm-3 mb-md-5 text-center text-md-start">Nos produits</h3>
+
+            <div class="row g-3 d-flex justify-content-evenly">
+                <div class="card" style="width: 18rem;">
+                    <img class="img" src="images/1-1-300x300.jpg"
+                        width="100%" height="240px"></img>
+                    <div class="card-body">
+                        <hr>
+                        <h5 class="card-title">$790.50</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">GoPro HERO6 4K Action</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">Camera - Black</h6>
+                        <a href="#" role="button" class="btn btn-primary card-link py-2 px-4">Add to card</a>
+                        <a href="#" class="btn btn-outline-primary card-link"> <i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <!--First Card--->
+
+
+
+                <div class="card" style="width: 18rem;">
+                    <img src="images/artemisin-antibacterial-nourishing-soap-300x300.jpg" width="100%"
+                        height="240px"></img>
+
+                    <div class="card-body">
+                        <hr>
+                        <h5 class="card-title">$320.00</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Canon camera 20x zoom, Black</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">color EOS 2000</h6>
+
+                        <a href="#" role="button" class="btn btn-primary card-link py-2 px-4">Add to card</a>
+                        <a href="#" class="btn btn-outline-primary card-link "> <i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div><!--  2nd card -->
+
+
+
+                <div class="card" style="width: 18rem;">
+                    <img src="images/artemisin-multi-effect-total-protection-mouthwash-300x300.jpg" width="100%"
+                        height="240px"></img>
+
+                    <div class="card-body">
+                        <hr>
+                        <h5 class="card-title">$120.00</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Xiaomi Redmi 8 Original Global</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">Version 4GB</h6>
+
+                        <a href="#" role="button" class="btn btn-primary card-link py-2 px-4">Add to card</a>
+                        <a href="#" class="btn btn-outline-primary card-link "> <i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div><!--  3rd card -->
+
+
+
+                <div class="card" style="width: 18rem;">
+                    <img src="images/Cafe-Longrich-300x300.webp" width="100%"
+                        height="240px"></img>
+
+                    <div class="card-body">
+                        <hr>
+                        <h5 class="card-title">$120.00</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Apple iPhone 12 Pro 6.1" RAM</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">6GB 512GB Unlocked</h6>
+
+                        <a href="#" role="button" class="btn btn-primary card-link py-2 px-4">Add to card</a>
+                        <a href="#" class="btn btn-outline-primary card-link "> <i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div><!--  4th card -->
+
+
+
+
+
+                <div class="card" style="width: 18rem;">
+                    <img src="images/dentifrice-artemisin-longrich-300x300.jpg" width="100%"
+                        height="240px"></img>
+
+                    <div class="card-body">
+                        <hr>
+                        <h5 class="card-title">$120.00</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Apple Watch Series 1 Sport</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">Case 38mm Black</h6>
+
+                        <a href="#" role="button" class="btn btn-primary card-link py-2 px-4">Add to card</a>
+                        <a href="#" class="btn btn-outline-primary card-link "> <i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div><!--  5th card -->
+
+
+
+
+                <div class="card" style="width: 18rem;">
+                    <img src="images/Dentifrice-Longrich-200g-300x300.jpeg" width="100%"
+                        height="240px"></img>
+
+                    <div class="card-body">
+                        <hr>
+                        <h5 class="card-title">$120.00</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">T-shirts with multiple colors, for</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">men and lady</h6>
+
+                        <a href="#" role="button" class="btn btn-primary card-link py-2 px-4">Add to card</a>
+                        <a href="#" class="btn btn-outline-primary card-link "> <i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div><!--  6th card -->
+
+
+
+
+                <div class="card" style="width: 18rem;">
+                    <img src="images/deodorant-anti-transpirant-300x300.jpg" width="100%"
+                        height="240px"></img>
+
+                    <div class="card-body">
+                        <hr>
+                        <h5 class="card-title">$99.50</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Gaming Headset 32db Black</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">built in mic</h6>
+
+                        <a href="#" role="button" class="btn btn-primary card-link py-2 px-4">Add to card</a>
+                        <a href="#" class="btn btn-outline-primary card-link "> <i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div><!--  7th card -->
+
+
+
+                <div class="card" style="width: 18rem;">
+                    <img src="images/Gel-Douche.jpg" width="100%"
+                        height="240px"></img>
+
+                    <div class="card-body">
+                        <hr>
+                        <h5 class="card-title">$120.00</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">T-shirts with multiple colors, for</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">men and lady</h6>
+
+                        <a href="#" role="button" class="btn btn-primary card-link py-2 px-4">Add to card</a>
+                        <a href="#" class="btn btn-outline-primary card-link "> <i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div><!--  8th card -->
+
+            </div>
+            <!--row and container div--->
+        </div>
+
+
+
+        <!--  New section -->
+        <div class="py-5 px-3">
+            <div class="container py-5">
+                <h3 class="fw-bold  text-center text-md-start mb-3">Pourquoi Nous choisir</h3>
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-center">
+
+                        <div class="bg-white shadow-sm rounded-circle p-3">
+                            <i class="fa-solid fa-money-bill fs-1 text-primary"></i>
+                        </div>
+
+                        <div class="ms-3 mt-md-5">
+                            <h6 class="h6 fw-bold">prix raisonnables</h6>
+                            <p class="text-muted">
+                                Pour l'entreprise qui vend des produits de haute qualité, nous proposons des services VIP qui sont accessibles aux clients et aux clients non inscrits sur notre site. Si vous souscrivez à ce service, vous recevrez des réductions sur chaque produit vendu par l'intermédiaire de votre compte,
+                                ainsi que des informations sur le statut VIP et l'accès aux offres spéciales et aux analyses de marché.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-center">
+
+                        <div class="bg-white shadow-sm rounded-circle p-3">
+                            <i class="fa-solid fa-star  fs-1 text-primary"></i>
+                        </div>
+
+                        <div class="ms-3 mt-md-5">
+                            <h6 class="h6 fw-bold">
+                                Meilleur qualité</h6>
+                            <p class="text-muted">Vous trouverez ici les meilleurs produits pour votre peau et votre santé.
+                                    Nous avons des clients dans le monde entier.
+                                    Notre mission est de donner à chacun une vie belle, saine et heureuse.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class=" col-lg-4 col-md-6 d-flex align-items-center">
+
+                        <div class="bg-white shadow-sm rounded-circle p-3">
+                            <i class="fa-solid fa-plane  fs-1 text-primary"></i>
+                        </div>
+                        <div class="ms-3 mt-md-5">
+                            <h6 class="h6 fw-bold">Livraison</h6>
+                            <p class="text-muted">L'entreprise vend des produits de beauté et de bien-être, des cosmétiques,
+                                des produits de santé et de bien-être. Nous avons une large gamme de produits dans notre boutique en ligne.
+                                Nos produits sont livrés dans le monde entier par les meilleurs services de messagerie.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-center">
+
+                        <div class="bg-white shadow-sm rounded-circle p-3">
+                            <i class="fa-solid fa-users  fs-1 text-primary"></i>
+                        </div>
+                        <div class="ms-3 mt-md-5">
+                            <h6 class="h6 fw-bold">satisfaction client </h6>
+                            <p class="text-muted">Tous les clients qui utilise des produits de note entreprise
+                                sont satisfaits quand ils ont une qualité exceptionnel
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-center">
+
+                        <div class="bg-white shadow-sm rounded-circle p-3">
+                            <i class="fa-solid fa-box-open fs-1 text-primary"></i>
+                        </div>
+                        <div class="ms-3 mt-md-5">
+                            <h6 class="h6 fw-bold">Notre</h6>
+                            <p class="text-muted">Notre équipe est constituer des Personnes competents,
+                                qui sont sont près a tout pour la satisfaction de leur client.
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!--row idv--->
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <div class="py-5 footer">
+            <div class="container">
+
+                <div class="row d-flex">
+
+                    <div class="col-md-12 col-lg-3 mb-3">
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+
+                        <h6 class="h6 fw-bold">Contacts</h6>
+
+                        <a href="#" class="text-decoration-none text-muted"> Koko, Bobo-Dioulasso, BF</a>
+                        <a href="#" class="text-decoration-none text-muted">(+226) 75-5040-99 </a>
+                        <a href="#" class="text-decoration-none text-muted">info@longrich-ci.com</a>
+                       
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                        <h6 class="h6 fw-bold">Information</h6>
+                        <a href="#" class="text-decoration-none text-muted">Acceuil</a>
+                        <a href="#" class="text-decoration-none text-muted">Pésentation</a>
+                        <a href="#" class="text-decoration-none text-muted">Produits</a>
+                        <a href="#" class="text-decoration-none text-muted">Categories</a>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-2 mt-3 mt-md-0">
+                        <h6 class="h6 fw-bold">Support</h6>
+                        <a href="#" class="text-decoration-none text-muted">About us</a>
+                        <a href="#" class="text-decoration-none text-muted">Find stories</a>
+                        <a href="#" class="text-decoration-none text-muted">Categories</a>
+                       
+                    </div>
+
+                    <div class="col-lg-3 mt-3 mt-lg-0">
+
+                        <h6 class="h6 fw-bold">Newsletter</h6>
+                        
+
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Email" aria-label="Email"
+                                aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-secondary" type="button">Join</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <!--row div-->
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

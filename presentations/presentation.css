@@ -1,0 +1,104 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+p{
+    font-weight: 500;
+    color: black;
+    font-size: 15px;
+}
+body{
+    margin: auto 10px;
+}
+.contenu{
+    display: grid;
+    height: auto;
+    grid-template-areas: 
+        'front front'
+        'img1 cont1'
+        'cont2 cont1'
+        'img3 cont3'
+        'cont4 img4'
+    ;
+    gap: 5px;
+    
+}
+.front-img{
+    background-image: url(../images/photo.jpg);
+   
+    grid-area: front;
+   background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+.front-img h1{
+    color: white;
+   
+}
+.front-img h1:hover{
+    background-image: linear-gradient(to right bottom,blue,white);
+    
+}
+.img1{
+    
+    grid-area: img1;
+}
+.cont1{
+    padding: 10px;
+    text-align: start;
+    grid-area: cont1;
+}
+.cont1 button{
+    background:green;
+    border:none;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    transition: width 2s;
+}
+.cont1 button:hover{
+    width: 250px;
+    font-size: 25px;
+}
+.cont1 button a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.cont2{
+   
+    grid-area: cont2;
+}
+
+.cont3{
+    
+    grid-area: cont3;
+}
+.img3{
+    
+    grid-area: img3;
+}
+
+.cont4{
+    
+    grid-area: cont4;
+}
+.img4{
+    
+    grid-area: img4;
+    
+}
+.img4 img{
+    height: 80%;
+    width: 80%;
+}
